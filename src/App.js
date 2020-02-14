@@ -3,6 +3,8 @@ import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import Home from './components/Home'
 import NewKeg from './components/NewKeg'
+import NavBar from './components/NavBar'
+import Header from './components/Header'
 
 function App(){
   return (
