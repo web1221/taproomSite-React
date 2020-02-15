@@ -5,3 +5,7 @@ a {
 a:hover {
    color: #00F
 }
+
+body {
+  margin: -8px;
+}
