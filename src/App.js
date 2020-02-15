@@ -10,7 +10,6 @@ function App(){
   return (
     <div>
     <NavBar />
-    <Header />
     <Switch>
     <Route exact path='/' component={Home} />
     <Route exact path='/taplist' component={TapList} />

@@ -3,13 +3,12 @@ import BarImg from './headerBarImg.jpg'
 function Header(){
   const headerImgStyle = {
     width: "100vw",
-    height: "85vh",
     margin: "10px"
 
   }
   return (
-    <div>
-      <img style={headerImgStyle} src={BarImg} alt='picture of taproom'/>
+    <div style={headerImgStyle}>
+      <img src={BarImg} alt='picture of taproom'/>
     </div>
   );
 }
