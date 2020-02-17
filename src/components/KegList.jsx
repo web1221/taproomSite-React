@@ -7,6 +7,7 @@ import HeavySeas from './img/heavyseas.png'
 import BaseCamp from './img/basecamp.png'
 import Pelican from './img/pelican.png'
 import DogFish from './img/dogfish.png'
+import Rogue from './img/rogue.png'
 
 var masterKegList = [
   {
@@ -46,10 +47,16 @@ var masterKegList = [
     image: Pelican
   },
   {
-    names: 'Straight Outta Portland',
-    brewery: 'Migration',
+    names: 'Send It',
+    brewery: 'Base Camp',
     AlcContent: '7.3% ABV',
     image: BaseCamp
+  },
+  {
+    names: 'DEAD GUY',
+    brewery: 'Rouge',
+    AlcContent: '6.8% ABV',
+    image: Rogue
   },
 ];
 
