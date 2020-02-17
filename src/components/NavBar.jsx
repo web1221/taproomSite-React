@@ -23,7 +23,8 @@ function NavBar(){
 
   const barName = {
     color: "#3c7a91",
-    marginBottom: "10px"
+    marginBottom: "10px",
+    fontSize: "40px"
   }
 
   const linkNav = {

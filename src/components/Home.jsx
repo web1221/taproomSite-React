@@ -7,6 +7,12 @@ function Home(){
     padding: "20px",
     margin: "10px 10px 0px 0px"
   }
+
+  const eventsStyle = {
+    border: "4px solid black",
+    padding: "20px",
+    margin: "10px 10px 0px 0px"
+  }
   return (
     <div className="row">
       <div className ="column" style={aboutUsStyle}>
@@ -15,8 +21,15 @@ function Home(){
         Oh. You need a little dummy text for your mockup? How quaint.
         I bet you’re still using Bootstrap too…</p>
       </div>
-      <div className ="column">
-        <h2>Featured Beers</h2>
+      <div className ="column" style={eventsStyle}>
+        <h2>Events</h2>
+        <ul>
+          <li>02/13 Trivia Night!</li>
+          <li>02/14 DJ Dead Beats Dad</li>
+          <li>02/20 Food truck Friday</li>
+          <li>02/22 PDX Bunnies in Baskets</li>
+          <li>02/29 Craft Yoga</li>
+        </ul>
       </div>
     </div>
   );
