@@ -3,7 +3,8 @@ a {
   font: arial;
 }
 a:hover {
-   color: #00F
+   color: black;
+   background-color: white;
 }
 
 body {

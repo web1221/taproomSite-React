@@ -1,5 +1,4 @@
 import React from 'react';
-import BarImg from './headerBarImg.jpg'
 function Header(){
   const headerImgStyle = {
     width: "100vw",
@@ -8,7 +7,6 @@ function Header(){
   }
   return (
     <div style={headerImgStyle}>
-      <img src={BarImg} alt='picture of taproom'/>
     </div>
   );
 }

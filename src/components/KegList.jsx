@@ -2,7 +2,7 @@ import React from 'react';
 import Kegs from './Kegs'
 import BreakSide from './img/breakside.png'
 import FlyingDog from './img/flyingdog.png'
-import Denizens from './img/denizens.png'
+import Denizens from './img/denizens2.png'
 import HeavySeas from './img/heavyseas.png'
 import BaseCamp from './img/basecamp.png'
 import Pelican from './img/pelican.png'
