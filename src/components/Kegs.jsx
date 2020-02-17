@@ -10,12 +10,15 @@ function Keg(props){
 
   const layoutKeg = {
     display: "inline-block",
+    width: "20vw",
+    margin: "15px 0px 50px 90px"
+
 
   }
   return (
     <div style={layoutKeg}>
-    <div className="flip-card">
-      <div className="flip-card-inner">
+      <div className="flip-card">
+        <div className="flip-card-inner">
           <div className="flip-card-front">
             <h3>{props.names} </h3>
             <img style={imageSize} src={props.image} alt='picture of brewery'/>
