@@ -7,7 +7,7 @@ import Denizens from './img/denizens2.png'
 import HeavySeas from './img/heavyseas.png'
 import BaseCamp from './img/basecamp.png'
 import Pelican from './img/pelican.png'
-import DogFish from './img/dogfish.png'
+import DCBrau from './img/dcbrau.png'
 import Rogue from './img/rogue.png'
 
 var masterKegList = [
@@ -30,10 +30,10 @@ var masterKegList = [
     image: FlyingDog
   },
   {
-    names: '120 Minute IPA',
-    brewery: 'Dog Fish',
-    AlcContent: '15% ABV',
-    image: DogFish
+    names: 'Full Transparency',
+    brewery: 'DC Brau',
+    AlcContent: '5% ABV',
+    image: DCBrau
   },
   {
     names: 'Peg Leg',
