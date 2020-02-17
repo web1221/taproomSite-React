@@ -3,14 +3,18 @@ function Header(){
 
   const headerStyle = {
     textAlign: "center",
+    color: "white"
   }
 
   const roatingStyle = {
     marginBottom: "20px"
   }
+  const tapStyle = {
+    textDecoration: "underline"
+  }
   return (
     <div style={headerStyle}>
-      <h1>Beers on Tap!</h1>
+      <h1 style={tapStyle}>Beers on Tap!</h1>
       <h4 style={roatingStyle}>Roating monthly</h4>
     </div>
   );
