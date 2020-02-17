@@ -1,5 +1,6 @@
 import React from 'react';
 import Kegs from './Kegs'
+import Header from './Header'
 import BreakSide from './img/breakside.png'
 import FlyingDog from './img/flyingdog.png'
 import Denizens from './img/denizens2.png'
@@ -63,6 +64,8 @@ var masterKegList = [
 function KegList(){
   return (
     <div>
+    <Header />
+    <div>
     {masterKegList.map((keg, index) =>
       <Kegs names={keg.names}
       brewery={keg.brewery}
@@ -70,6 +73,7 @@ function KegList(){
       image={keg.image}
       key={index}/>
     )}
+    </div>
     </div>
   );
 }

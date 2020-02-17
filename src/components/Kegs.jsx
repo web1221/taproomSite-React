@@ -11,7 +11,7 @@ function Keg(props){
   const layoutKeg = {
     display: "inline-block",
     width: "20vw",
-    margin: "15px 0px 50px 90px"
+    margin: "20px 0px 50px 90px"
 
 
   }
