@@ -54,3 +54,10 @@ body {
   transform: rotateY(180deg);
   border: 1px solid white
 }
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
