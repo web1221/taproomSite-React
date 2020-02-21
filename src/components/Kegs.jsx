@@ -21,7 +21,7 @@ function Keg(props){
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <h3>{props.names} </h3>
-            <img style={imageSize} src={props.image} alt='picture of brewery'/>
+            <img style={imageSize} src={props.image} alt='brewery logo'/>
           </div>
 
           <div class="flip-card-back">
