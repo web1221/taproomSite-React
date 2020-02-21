@@ -26,7 +26,7 @@ function Keg(props){
           </div>
 
           <div class="flip-card-back">
-            <p>{props.brewery}</p>
+            <h3>{props.brewery}</h3>
             <p><em>{props.AlcContent}</em></p>
             <p>Pints Left:<KegCounter /></p>
           </div>

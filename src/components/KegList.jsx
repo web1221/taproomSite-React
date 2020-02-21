@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 import Kegs from './Kegs'
-import Header from './Header'
+import BeerHeader from './BeerHeader'
 import BreakSide from './img/breakside.png'
 import FlyingDog from './img/flyingdog.png'
 import Denizens from './img/denizens2.png'
@@ -65,7 +65,7 @@ var masterKegList = [
 function KegList(props){
   return (
     <div>
-      <Header />
+      <BeerHeader />
       <div>
         {masterKegList.map((keg, index) =>
           <Kegs names={keg.names}

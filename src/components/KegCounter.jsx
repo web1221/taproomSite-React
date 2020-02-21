@@ -13,15 +13,16 @@ function KegCounter() {
             } else {
                 setCount(0)
             }
-    });
+    }, [count]);
 
-    const textColor = {
+    const levelChangeColor = {
         color: color
     }
     return(
         <div>
-            <p style={textColor}>{count}</p>
+            <p style={levelChangeColor}>{count}</p>
             <button onClick={() => setCount(count - 1)}>Buy a Pint</button>
+            <button onClick={() => setCount(count - 4)}>Buy a Growler</button>
         </div>
     )
 }

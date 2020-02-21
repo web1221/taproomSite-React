@@ -61,3 +61,10 @@ body {
 .column {
   flex: 50%;
 }
+
+.headerImg {
+  width: 100%;
+  height: 50%;
+  background-image: url('./components/img/headerImg.jpg');
+
+}

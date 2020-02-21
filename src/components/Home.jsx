@@ -14,6 +14,8 @@ function Home(){
     margin: "10px 10px 0px 0px"
   }
   return (
+    <div>
+      <Header />
     <div className="row">
       <div className ="column" style={aboutUsStyle}>
         <h2>About Beer Pitch</h2>
@@ -31,6 +33,7 @@ function Home(){
           <li>02/29 Craft Yoga</li>
         </ul>
       </div>
+    </div>
     </div>
   );
 }
