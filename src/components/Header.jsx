@@ -4,8 +4,9 @@ import HeaderImage from './img/headerImg.jpg'
 function Header() {
 
     return(
-        <div>
-           <h1>Welcome</h1>
+        <div className="container">
+            <img className="headerImg" src={HeaderImage} alt="different color beers"/>
+            <div className="centered">Welcome</div>
         </div>
     )
 }
