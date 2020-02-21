@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 import Kegs from './Kegs'
 import Header from './Header'
 import BreakSide from './img/breakside.png'
@@ -61,7 +62,7 @@ var masterKegList = [
   },
 ];
 
-function KegList(){
+function KegList(props){
   return (
     <div>
       <Header />
@@ -73,9 +74,22 @@ function KegList(){
             image={keg.image}
             key={index}/>
         )}
+
+        {Object.keys(props.kegList).map(function(kegId) {
+          let keg = props.kegList[kegId];
+          return <Kegs names={keg.names}
+            brewery={keg.brewery}
+            AlcContent={keg.AlcContent}
+            image={keg.image}
+            key={kegId}/>
+        })}
+
       </div>
     </div>
   );
 }
 
+KegList.propTypes = {
+  kegList: PropTypes.object
+}
 export default KegList;

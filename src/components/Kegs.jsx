@@ -38,7 +38,8 @@ Keg.propTypes = {
   brewery: PropTypes.string.isRequired,
   names: PropTypes.string.isRequired,
   AlcContent: PropTypes.string,
-  image: PropTypes.string
+  image: PropTypes.string,
+  kegId: PropTypes.string.isRequired
 };
 
 export default Keg;

@@ -7,7 +7,7 @@ import NavBar from './components/NavBar'
 import NewKeg from './components/NewKeg'
 import { v4 } from 'uuid'
 
-class App extends React.Components {
+class App extends React.Component {
 
   constructor(props){
     super(props);
@@ -24,16 +24,19 @@ class App extends React.Components {
     });
     this.setState({masterKegList: newMasterKegList})
   }
-  return (
-    <div>
+  render(){
+
+    return (
+      <div>
       <NavBar />
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route path='/taplist' component={KegList} />
-        <Route path='/newkeg' render={()=> <NewKeg onNewKegCreation={this.handleAddingNewKegToList} /> } />
+        <Route path='/taplist' render={()=><KegList kegList={this.state.masterKegList} /> } />
+      <Route path='/newkeg' render={() => <NewKeg onNewKegCreation={this.handleAddingNewKegToList} />} />
       </Switch>
     </div>
   );
+  }
 }
 
 export default App;
