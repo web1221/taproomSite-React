@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import KegCounter from './KegCounter'
 
 function Keg(props){
 
@@ -27,6 +28,7 @@ function Keg(props){
           <div class="flip-card-back">
             <p>{props.brewery}</p>
             <p><em>{props.AlcContent}</em></p>
+            <p>Pints Left:<KegCounter /></p>
           </div>
         </div>
       </div>
