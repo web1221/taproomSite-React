@@ -36,8 +36,8 @@ function NavBar(){
   return (
     <div style={navBarStyle}>
       <div style={linkNav}>
-      <p><Link style={homeLink} to="/">Home</Link></p>
-      <p><Link style={homeLink} to="/taplist">On Tap</Link></p>
+        <p><Link style={homeLink} to="/">Home</Link></p>
+        <p><Link style={homeLink} to="/taplist">On Tap</Link></p>
       </div>
       <div style={barName}>
         <h3>Beer Pitch</h3>

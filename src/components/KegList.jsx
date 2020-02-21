@@ -64,16 +64,16 @@ var masterKegList = [
 function KegList(){
   return (
     <div>
-    <Header />
-    <div>
-    {masterKegList.map((keg, index) =>
-      <Kegs names={keg.names}
-      brewery={keg.brewery}
-      AlcContent={keg.AlcContent}
-      image={keg.image}
-      key={index}/>
-    )}
-    </div>
+      <Header />
+      <div>
+        {masterKegList.map((keg, index) =>
+          <Kegs names={keg.names}
+            brewery={keg.brewery}
+            AlcContent={keg.AlcContent}
+            image={keg.image}
+            key={index}/>
+        )}
+      </div>
     </div>
   );
 }
