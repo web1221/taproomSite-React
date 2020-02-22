@@ -15,9 +15,9 @@ function BeerHeader(){
   }
   return (
     <div style={headerStyle}>
-      <h1 style={tapStyle}>Beers on Tap</h1>
+      <h1 style={tapStyle}>Tap List</h1>
       <h4 style={roatingStyle}>Roating monthly</h4>
-      <h3><Link to="/newkeg">Add a new Keg</Link></h3>
+      <h4><Link to="/newkeg">Add a new Keg</Link></h4>
     </div>
   );
 }
