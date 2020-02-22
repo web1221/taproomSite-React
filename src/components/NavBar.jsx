@@ -3,44 +3,49 @@ import { Link } from 'react-router-dom';
 
 function NavBar(){
   const navBarStyle = {
-    backgroundColor: "#f4eed4",
-    borderRadius: "10px",
-    padding: "10px",
-    fontSize: "20px",
-    display: "flex",
-    justifyContent: "space-between",
-
+    fontSize: "14px",
   }
 
   const homeLink = {
-    backgroundColor: "#3c7a91",
-    border: "solid 1px white",
-    borderRadius: "5px",
     textDecoration: "none",
-    justifyContent: "center",
-    padding: "10px"
+    border: "1px solid black",
+    width: "15px",
+    flexGrow: "1",
+    padding: "5px",
+    margin: "2px",
+    textAlign: "center",
   }
 
   const barName = {
-    color: "#3c7a91",
-    marginBottom: "10px",
-    fontSize: "40px"
+    color: "white",
+    fontSize: "60px"
   }
 
   const linkNav = {
-    display: "flex"
+    display: "flex",
+    justifyContent: "center",
+    paddingBottom: "40px",
+    paddingTop: "20px",
+  }
 
+  const barTitle = {
+    textAlign: "center",
+    margin: "5px",
+    letterSpacing: "4px",
   }
 
 
   return (
     <div style={navBarStyle}>
-      <div style={linkNav}>
-        <p><Link style={homeLink} to="/">Home</Link></p>
-        <p><Link style={homeLink} to="/taplist">On Tap</Link></p>
-      </div>
       <div style={barName}>
-        <h3>Beer Pitch</h3>
+        <h3 style={barTitle}>Beer Pitch</h3>
+      </div>
+      <div style={linkNav}>
+        <Link style={homeLink} to="/">Home</Link>
+        <Link style={homeLink} to="/taplist">On Tap</Link>
+        <Link style={homeLink} to="/">About</Link>
+        <Link style={homeLink} to="/">Careers</Link>
+        <Link style={homeLink} to="/">Contact</Link>
       </div>
     </div>
   );
