@@ -10,10 +10,10 @@ function NewKeg(props){
   function handleNewKegSubmission(event){
     event.preventDefault();
     props.onNewKegCreation({names: _names.value, brewery: _brewery.value, AlcContent: _AlcContent.value, image: _image.value});
-     _names = '';
-     _brewery = '';
-     _AlcContent = '';
-     _image = '';
+     _names.value = '';
+     _brewery.value = '';
+     _AlcContent.value = '';
+     _image.value = '';
   }
   return (
     <div>
