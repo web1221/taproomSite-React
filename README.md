@@ -5,13 +5,13 @@
 #### By _**Angela Weber**_
 
 ## Description
-  __
+  _This project was created to demonstrate concepts of state in React. It is a website for a tap room where one can add a new keg to the tap. It uses multiple components and state hooks._
 
 ## Setup/Installation Requirements
 
 * Copy link from github
 * Open terminal and __git clone__ link
-* __cd__ into project and run __npm install__ 
+* __cd__ into project and run __npm install__
 * To see webpage run __npm start__
 
 
