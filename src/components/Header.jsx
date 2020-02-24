@@ -6,7 +6,7 @@ function Header() {
     return(
         <div className="container">
             <img className="headerImg" src={HeaderImage} alt="different color beers"/>
-            <div className="centered">Welcome</div>
+            <div className="centered">Welcome Friend</div>
         </div>
     )
 }

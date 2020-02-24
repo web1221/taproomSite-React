@@ -44,7 +44,7 @@ function NavBar(){
   return (
     <div style={navBarStyle}>
       <div style={barName}>
-        <h3 style={barTitle}>Beer Pitch</h3>
+        <h3 style={barTitle}>The Drunken Shark</h3>
       </div>
       <div style={linkNav}>
         <Link style={homeLink} to="/">Home</Link>
