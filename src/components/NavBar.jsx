@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 function NavBar(){
   const navBarStyle = {
     fontSize: "14px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    flexDirection: "column",
   }
 
   const homeLink = {
@@ -18,7 +22,8 @@ function NavBar(){
 
   const barName = {
     color: "white",
-    fontSize: "60px"
+    fontSize: "60px",
+    paddingTop: "10px",
   }
 
   const linkNav = {
@@ -26,7 +31,8 @@ function NavBar(){
     justifyContent: "center",
     paddingBottom: "40px",
     paddingTop: "20px",
-  }
+    width: "500px",
+    }
 
   const barTitle = {
     textAlign: "center",
