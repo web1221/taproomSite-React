@@ -3,7 +3,8 @@
 #### ** Drunken Shark is an independent project for Epicodus, 02/21/20**
 
 #### By _**Angela Weber**_
-
+Flow Chart:
+![flow chart](chart.png)
 
 ## Description
   _This project was created to demonstrate concepts of state in React. It is a website for a tap room where one can add a new keg to the tap. It uses multiple components and state hooks._
