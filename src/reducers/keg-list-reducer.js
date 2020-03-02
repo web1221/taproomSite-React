@@ -2,20 +2,24 @@ import {
     v4
 } from 'uuid'
 
-const initialState = {
-    masterKegList: {}
-}
 
 
-export default function reducer(state = initialState, action) {
+export default function reducer(state = {}, action) {
     switch (action.type) {
         case "ADD_KEG":
-            let newKegId = v4();
-            let newMasterKegList = Object.assign({}, state.masterKegList, {
-                [newKegId]: action.newKeg,
+            console.log(action);
+            const id = v4();
+            let newMasterKegList = Object.assign({}, state, {
+                [id]: {
+                    names: action.names,
+                    brewery: action.brewery,
+                    AlcContent: action.AlcContent,
+                    image: action.image,
+                }
             });
+            console.log(newMasterKegList);
             return newMasterKegList;
         default:
             return state;
     }
-}
+};

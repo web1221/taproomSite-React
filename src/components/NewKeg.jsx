@@ -9,7 +9,7 @@ function NewKeg(props) {
 
   function handleNewKegSubmission(event) {
     event.preventDefault();
-    this.props.dispatch({
+    props.dispatch({
       type: 'ADD_KEG',
       names: _names.value,
       brewery: _brewery.value,
